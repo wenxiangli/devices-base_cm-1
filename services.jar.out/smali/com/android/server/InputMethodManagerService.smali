@@ -2363,7 +2363,7 @@
     if-eqz v3, :cond_5
 
     .line 3682
-    invoke-direct {p0, v0}, Lcom/android/server/InputMethodManagerService;->publishImeSelectorCustomTile(Landroid/view/inputmethod/InputMethodInfo;)V
+    #invoke-direct {p0, v0}, Lcom/android/server/InputMethodManagerService;->publishImeSelectorCustomTile(Landroid/view/inputmethod/InputMethodInfo;)V
 
     .line 3670
     :goto_1
@@ -5057,7 +5057,7 @@
     .line 1867
     :cond_3
     :goto_1
-    invoke-direct {p0, v2}, Lcom/android/server/InputMethodManagerService;->publishImeSelectorCustomTile(Landroid/view/inputmethod/InputMethodInfo;)V
+    #invoke-direct {p0, v2}, Lcom/android/server/InputMethodManagerService;->publishImeSelectorCustomTile(Landroid/view/inputmethod/InputMethodInfo;)V
 
     invoke-direct/range {p0 .. p0}, Lcom/android/server/InputMethodManagerService;->showFlymeImeSwitcherNotificationIfNeeded()V
 
